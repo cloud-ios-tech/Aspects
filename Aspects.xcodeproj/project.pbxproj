@@ -12,7 +12,7 @@
 		34B986A51B1E491000DE719D /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B986841B1DE2BE00DE719D /* Aspects.m */; };
 		34B986A61B1E491300DE719D /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B9866C1B1DE0CE00DE719D /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7376F8CD1B8EA767009CAB74 /* Aspects.h in Headers */ = {isa = PBXBuildFile; fileRef = 34B9866C1B1DE0CE00DE719D /* Aspects.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7376F8D61B8EB1FA009CAB74 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B986841B1DE2BE00DE719D /* Aspects.m */; settings = {ASSET_TAGS = (); }; };
+		7376F8D61B8EB1FA009CAB74 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B986841B1DE2BE00DE719D /* Aspects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,6 +196,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 34B9865D1B1DE0CE00DE719D;
@@ -299,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -340,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -360,6 +361,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pspdfkit.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Aspects;
 				SKIP_INSTALL = YES;
 			};
@@ -375,6 +377,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pspdfkit.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Aspects;
 				SKIP_INSTALL = YES;
 			};
@@ -398,6 +401,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pspdfkit.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Aspects;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -417,6 +421,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pspdfkit.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Aspects;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
